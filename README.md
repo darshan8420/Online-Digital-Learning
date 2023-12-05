@@ -13,4 +13,8 @@
 - Photography 
 
 # Screen-Shots
-![](assets/Frame%2037.png)
+![](assets/icons/Frame%2037.png)
+![](assets/icons/Frame%2038.png)
+
+# Quick Start
+
