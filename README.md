@@ -1,6 +1,7 @@
 # Digitalcourse App
 
 
+
 # Features
 - UI/UX learning
 - Mobile App Development
@@ -21,6 +22,29 @@ This is a normal Flutter App. You should follow the instructions in the [Offical
 
 # Modularization Structure
 # Project Structure
+
+- assets                        # Main Application Assets Module
+  - icons                       # Icons 
+  - categories                  # Other basic images 
+
+- lib                  # Libraries Module
+  - core                   # Core Module
+    - errors               # Handling Exception and Failure
+    - services             # Dependency injection
+    - utils                # Local dummydata and Usecases
+  - src
+    - features
+         -  account.presentation.pages.account     # Account Module with different widgets
+         -  chat.presentation.pages.chat           # Chat Module (Handle dependency version updates)
+         -  course                                 # Course Section
+              - data                               # Data Layer
+              - domain                             # Domain Layer
+              - presentation                       # Presentation Layer
+                   - bloc                          # Business Logic Component State Management
+                   - pages   
+    - theme                 # Theme Module
+    - widget                # Custom widget which can be used repeatedly
+
 
 
 # Built with 🛠
