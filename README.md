@@ -1,6 +1,7 @@
 # Digitalcourse App
 
-
+It is a basic flutter Application. It provides the lessons and lectures about UI/UX development, Mobile App development, Graphichs design and others( Features are listed in below). Moreover,
+a messaging i.e Chatting feature, has been integrated additional with the application.
 
 # Features
 - UI/UX learning
@@ -23,27 +24,27 @@ This is a normal Flutter App. You should follow the instructions in the [Offical
 # Modularization Structure
 # Project Structure
 
-- assets                        # Main Application Assets Module
-  - icons                       # Icons 
-  - categories                  # Other basic images 
+- assets                        
+  - icons                        
+  - categories                  
 
-- lib                  # Libraries Module
-  - core                   # Core Module
-    - errors               # Handling Exception and Failure
-    - services             # Dependency injection
-    - utils                # Local dummydata and Usecases
+- lib                  
+  - core                   
+    - errors               
+    - services             
+    - utils                
   - src
     - features
-         -  account.presentation.pages.account     # Account Module with different widgets
-         -  chat.presentation.pages.chat           # Chat Module (Handle dependency version updates)
-         -  course                                 # Course Section
-              - data                               # Data Layer
-              - domain                             # Domain Layer
-              - presentation                       # Presentation Layer
-                   - bloc                          # Business Logic Component State Management
+         -  account.presentation.pages.account     
+         -  chat.presentation.pages.chat           
+         -  course                                 
+              - data                               
+              - domain                             
+              - presentation                       
+                   - bloc                          
                    - pages   
-    - theme                 # Theme Module
-    - widget                # Custom widget which can be used repeatedly
+    - theme                 
+    - widget                
 
 
 
@@ -76,4 +77,10 @@ This is a normal Flutter App. You should follow the instructions in the [Offical
 
 # How to run the App
 
-# Author
+1. Clone this project.
+2. Open with your favorite tools editor.
+3. Run Pub get on each module sequentially starting from dependencies, core, shared, and your root project to generated pubspec.lock file.
+4. But before you running that, make sure go to core module first using cd command. For example cd libraries and then cd core. Then you can run this command: flutter packages pub run build_runner build --delete-conflicting-outputs.
+Run the App using this or this. Enjoy your App!.
+
+
